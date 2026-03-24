@@ -6,3 +6,5 @@ Conformer 是一种卷积和Transformer相结合的架构，也算是我认真�
 越看越觉得要学习的东西实在太多啦，不过很有意思还挺喜欢这种感觉哈哈哈。
 ## 3. Accelerating Large Language Model Decoding with Speculative Sampling
 刚开始其实觉得这个想法看起来不新鲜，但是读完后觉得文章的具体实现part很精彩，还有一篇很related的work是Fast inference from transformers via speculative decoding，读完之后再对比一下。先写到这，具体实现还没完成，完成后再调一调看能不能解决自己的问题，特别是与kvcache相关的东西，貌似还涉及到了另一个技术pagedattention，和上过的system课的内容很相似。
+## 4. Efficient Memory Management for Large Language  Model Serving with PagedAttention
+这篇其实内容量不小，而且涉及到vLLM，目前读完主要是对Paged attention这个深入了点，其他部分看完了有点仅停留在概念的感觉。打算做一下Nano-vLLM，结合代码来把论文中一些东西理解一下。
