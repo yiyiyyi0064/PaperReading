@@ -8,3 +8,7 @@ Conformer 是一种卷积和Transformer相结合的架构，也算是我认真�
 刚开始其实觉得这个想法看起来不新鲜，但是读完后觉得文章的具体实现part很精彩，还有一篇很related的work是Fast inference from transformers via speculative decoding，读完之后再对比一下。先写到这，具体实现还没完成，完成后再调一调看能不能解决自己的问题，特别是与kvcache相关的东西，貌似还涉及到了另一个技术pagedattention，和上过的system课的内容很相似。
 ## 4. Efficient Memory Management for Large Language  Model Serving with PagedAttention
 这篇其实内容量不小，而且涉及到vLLM，目前读完主要是对Paged attention这个深入了点，其他部分看完了有点仅停留在概念的感觉。打算做一下Nano-vLLM，结合代码来把论文中一些东西理解一下。
+## 5. Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve
+很好文章使我大脑旋转。
+学会分析性能问题，非常关键，在发现问题，研究问题时都能得到很insightful的结果。很多问题本质是tradeoff，该怎么tradeoff怎么思考，这篇文章给了一个很好的学习范本。
+浅入深出，好文！一些细节还有些模糊，多思考多做。
