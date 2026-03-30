@@ -12,3 +12,9 @@ Conformer 是一种卷积和Transformer相结合的架构，也算是我认真�
 很好文章使我大脑旋转。
 学会分析性能问题，非常关键，在发现问题，研究问题时都能得到很insightful的结果。很多问题本质是tradeoff，该怎么tradeoff怎么思考，这篇文章给了一个很好的学习范本。
 浅入深出，好文！一些细节还有些模糊，多思考多做。
+
+## 6. AF分离
+关于AF分离，主要是看了三篇文章，首先看了GLaM: Efficient Scaling of Language Models with Mixture-of-Experts补了一下专家并行，再对比看了MegaScale-Infer: Efficient Mixture-of-Experts Model Serving withDisaggregated Expert Parallelism & Expert-as-a-Service: Towards Efficient, Scalable, and
+Robust Large-scale MoE Serving。说实话这两篇看的时间很久，基本花了差不多两天，因为一开始对MoE不是很了解，其中提到一些通信库的知识又去看了一些文章补了下，结果越看越多hhh。不过收获还是很多，两篇文章都给人很扎实的感觉，后面有时间的话想去了解下算子优化那一块看的时候并没有具体去看实现，这周得先做nano-vllm。
+还有几篇看完了但还需要整理下思路，几篇思路都是很连续的。 
+
